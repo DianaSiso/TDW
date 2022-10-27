@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #EEE!important;
+    min-height: 100vh;
+}
+
+/* login page */
+
+#login_card {
+    position: relative;
+    background-color: #FFF;
+    border-radius: 5%;
+    padding: 1.5rem;
+    border: 0px;
+    box-shadow: 0px 0px 8px #CCC;
+}
+
+#login_card h2 {
+    color: #08c0c8!important;
+    letter-spacing: 0.01cm;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 1.5rem;
+    margin-bottom: 2rem;
+    width: auto;
+}
+
+#login_card .form-control {
+    width: auto;
+    border: 0px;
+    border-bottom: 1px solid #08c0c8!important;
+    border-radius: 0%;
+    color: #999;
+}
+
+#login_card .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #999;
+    font-size: 0.9rem;
+}
+
+#login_card input {
+    font-size: 0.9rem;
+}
+  
+#login_card .form-group {
+    font-size: 0.7rem;
+    display: flex;
+    margin: 0.2rem;
+}
+
+#login_card .login_icons {
+    padding-top: 0.6rem;
+    font-size: 0.9rem;
+    color: #08c0c8!important;
+    margin-right: 0.7rem;
+}
+
+#forget_password {
+    font-size: 0.7rem;
+    color: #999;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#login_buttons {
+    margin-top: 2rem!important;
+    padding: 1rem;
+    padding-bottom: 0rem!important;
+}
+
+#login_buttons .col-md-5 {
+    background-color: #08c0c8!important;
+    border: 0px;
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
+
+#login_buttons .btn-primary {
+    letter-spacing: 0.01cm;
+    font-size: 0.8rem;
+    background-color: transparent!important;
+    border: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/* ---------- home page ---------- */
+
+.container-fluid{
+    align-items: center;
+}
+
+nav {
+    min-height: 10vh;
+    margin-bottom: 10rem;
+}
+
+#weeklyHotTitleList_card, #freshPicksTitleList_card {
+    position: relative;
+    background-color: #FFF;
+    border-radius: 6px;
+    border: 0px;
+    box-shadow: 0px 0px 8px #CCC;
+    color: #999;
+    font-size: 0.9rem;
+    letter-spacing: 0.01cm;
+    margin: 2rem;
+}
+
+#home_language_first_card, #home_genre_first_card, #home_language_second_card, #home_genre_second_card {
+    color: #FFF;
+    background-color: #777;
+    padding-left: 6px!important;
+    padding-right: 6px!important;
+    padding: 1px;
+    border-radius: 10px;
+    font-size: 0.7rem!important;
+    text-transform: uppercase;
+}
+
+#home_score_first_card, #home_score_second_card {
+    font-size: 0.8rem!important;
+    font-style: italic;
+}
+
+#home_author_first_card, #home_author_second_card {
+    font-style: italic;
+    text-align: right!important;
+    font-size: 0.8rem!important;
+}
+
+#home_title_first_card, #home_title_second_card {
+    color: #08c0c8!important;
+    letter-spacing: 0.01cm;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0.5rem;
+    width: auto;
+}
+
+.arrows {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: #08c0c8;
+}
+
+i.fa-solid.fa-ranking-star, i.fa-solid.fa-book-bookmark {
+    margin-right: 0.5rem;
+}
+
+.home_header {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #444;
+}
+
+.card-img-top {
+    width: 70%!important;
+    display: flex;
+    margin: auto;
+    filter: grayscale(100);
+}

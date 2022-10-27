@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="home.html">WBT Site</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="show_all.html">All</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Recomended</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa-solid fa-user"></i> Profile
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Settings</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Sign Out</a>
+                </div>
+              </li>
+            </ul>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <div class="home_header"><i class="fa-solid fa-ranking-star"></i><a>  WEEKLY HOT TITLE LIST</a></div>
+                  <div id="weeklyHotTitleList_card">
+                    <div class="card-body">
+                        <div class="card-title" id="home_title_first_card">Title</div>
+                        <br/>
+                        <img class="card-img-top" width="2rem" src="https://pbs.twimg.com/media/ENTtQvMU4AA7GRE.png:large" alt="Card image cap">
+                        <br/>
+                        <hr/>
+                        <div id="home_author_first_card">author</div>
+                        <br/>
+                        <span class="card-text">Genre: </span>
+                        <span id="home_genre_first_card">WAITING...</span>
+                        <br/>
+                        <span class="card-text">Language: </span>
+                        <span id="home_language_first_card">WAITING...</span>
+                        <br/>
+                        <br/>
+                        <span id="home_score_first_card"></span>
+                        <br/>
+                        <div class="arrows">
+                            <i id="arrow_back_first_card" class="fa-solid fa-circle-arrow-left"></i>
+                            <i id="arrow_next_first_card" class="fa-solid fa-circle-arrow-right"></i>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+              <div class="home_header"><i class="fa-solid fa-book-bookmark"></i><a> FRESH PICKS TITLE LIST</a></div>
+              <div id="freshPicksTitleList_card" >
+                  <div class="card-body">
+                    <div class="card-title" id="home_title_second_card">Title</div>
+                    <br/>
+                    <img class="card-img-top" width="2rem" src="https://pbs.twimg.com/media/ENTtQvMU4AA7GRE.png:large" alt="Card image cap">
+                    <br/>
+                    <hr/>
+                    <div id="home_author_second_card">author</div>
+                    <br/>
+                    <span class="card-text">Genre: </span>
+                    <span id="home_genre_second_card">WAITING...</span>
+                    <br/>
+                    <span class="card-text">Language: </span>
+                    <span id="home_language_second_card">WAITING...</span>
+                    <br/>
+                    <br/>
+                    <span id="home_score_second_card"></span>
+                    <br/>
+                    <div class="arrows">
+                        <i id="arrow_back_second_card" class="fa-solid fa-circle-arrow-left"></i>
+                        <i id="arrow_next_second_card" class="fa-solid fa-circle-arrow-right"></i>
+                    </div>
+                 </div>
+                </div>
+            </div>
+            
+            <div class="col-md-2"></div>
+        </div>
+      </div>
+
+    <script src="../JS/home.js">
+        
+    </script>
+</body>
+</html>
