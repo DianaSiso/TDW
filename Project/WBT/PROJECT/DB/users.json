@@ -1,0 +1,12 @@
+{
+    "userInfo": [
+        {
+            "email": "user_one@gmail.com",
+            "password": "user_one"
+        },
+        {
+            "email": "user_two@gmail.com",
+            "password": "user_two"
+        }
+    ]
+}
